@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="img/pc-display.svg" />
+        <title>LéoTech</title>
+</head>
+
+<body>
+        <!--header-->
+        <header id="header">
+                <!--logo-->
+                <div class="logo">
+                        <div class="titlelogo">
+                                <img src="img/pc-display.svg" alt="pc-display" width="25" />
+                                <a href="#" title="LéoTech informatica">
+                                        <h1>LéoTech</h1>
+                                </a>
+                        </div>
+                        <p>informatica</p>
+                </div>
+                <!--nav-->
+                <nav>
+                        <ul type="none">
+                                <li>
+                                        <a id="btnhome" href="#" title="Home">Home</a>
+                                </li>
+                                <li>
+                                        <a href="#sobre" title="Sobre">Sobre</a>
+                                </li>
+                                <li>
+                                        <a href="#servicos" title="Servicos">Servicos</a>
+                                </li>
+                                <li>
+                                        <a href="#contato" title="Contato">Contato</a>
+                                </li>
+                        </ul>
+                </nav>
+        </header>
+        <!--main-->
+        <main id="home">
+                <!--home-->
+                <div class="home">
+                        <div class="fotohome">
+                                <div class="imgshome">
+                                        <img src="img/equipamento-de-computador-futurista-brilha-no-escuro-conectado-por-servidor-de-rede-gerado-por-ia.jpg"
+                                                alt="" />
+                                </div>
+                                <div class="imgshome">
+                                        <img src="img/mao-humana-digitando-no-teclado-do-computador-a-noite-gerada-por-ia.jpg"
+                                                alt="" />
+                                </div>
+                                <div class="imgshome">
+                                        <img src="img/tecnologia-de-fundo-de-toque-humano-remake-moderno-de-a-criacao-de-adam.jpg"
+                                                alt="" />
+                                </div>
+                        </div>
+                </div>
+        </main>
+        <!--sobre-->
+        <div id="sobre">
+                <p>A Leotech foi fundada com a visão de proporcionar soluções eficientes em limpeza e manutenção de
+                        dispositivos eletrônicos, como computadores e celulares. </p>
+                <p>Desde então, temos trabalhado incansavelmente para nos tornarmos a principal referência no setor,
+                        oferecendo serviços de alta qualidade e conquistando a confiança de uma base fiel de clientes.
+                </p>
+        </div>
+        <!--servicos-->
+        <div id="servicos">
+                <div class="textodeservicos">
+                        <h4>Formatação de Computadores:</h4>
+                        <br />
+                        <p>
+                                Seu computador está lento ou apresentando problemas de desempenho?
+                        </p>
+                        <p>
+                                Realizamos a formatação profissional de computadores, garantindo que
+                                todos os seus dados sejam protegidos e que o sistema operacional seja
+                                reinstalado adequadamente. Você receberá um computador como novo,
+                                pronto para executar tarefas com agilidade e eficiência.
+                        </p>
+                </div>
+                <div class="textodeservicos">
+                        <h4>Limpeza Interna e Externa:</h4>
+                        <br />
+                        <p>
+                                A limpeza regular é essencial para manter seus dispositivos
+                                eletrônicos em ótimo estado.
+                        </p>
+                        <p>
+                                Com a LéoTech, você pode ter certeza de que seus dispositivos serão
+                                tratados com cuidado e de forma profissional.
+                        </p>
+                </div>
+                <div class="textodeservicos">
+                        <h4>Troca de Peças:</h4>
+                        <br />
+                        <p>
+                                Quando seu computador ou celular apresentar problemas com componentes
+                                defeituosos, não se preocupe!
+                        </p>
+                        <p>
+                                Utilizamos peças de alta qualidade e compatíveis, garantindo que seus
+                                dispositivos funcionem perfeitamente após o reparo.
+                        </p>
+                </div>
+                <div class="textodeservicos">
+                        <h4>Manutenção de Celulares e Acessórios:</h4>
+                        <br />
+                        <p>
+                                Os smartphones são essenciais em nossa vida cotidiana e entendemos o
+                                quão frustrante pode ser quando eles apresentam problemas. Na LéoTech, oferecemos
+                                serviços de manutenção especializados para celulares
+                                de várias marcas e modelos. Além disso, também cuidamos de acessórios
+                                danificados, como telas quebradas, botões com defeito e baterias
+                                desgastadas.
+                        </p>
+                </div>
+                <div class="leftright">
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+        </div>
+        <!--contato-->
+        <div id="contato">
+                <div class="linkscontato">
+                        <ul type="none">
+                                <li>
+                                        <a href="#"><img src="img/whatsapp.svg" alt="" width="50" /></a>
+                                        <p>Whatsapp</p>
+                                </li>
+                                <li>
+                                        <a href="#"><img src="img/instagram.svg" alt="" width="50" /></a>
+                                        <p>Instagram</p>
+                                </li>
+                                <li>
+                                        <a href="#"><img src="img/facebook.svg" alt="" width="50" /></a>
+                                        <p>Facebook</p>
+                                </li>
+                        </ul>
+                </div>
+                <!--form-->
+                <form action="" method="post">
+                        <h4>Envie um email para LéoTech</h4>
+                        <input type="text" name="text" id="text" placeholder="Nome Completo" required
+                                autocomplete="off" />
+                        <input type="email" name="email" id="email" placeholder="Email" required autocomplete="off" />
+                        <input type="tel" name="tel" id="tel" placeholder="Telefone" required autocomplete="off" />
+                        <input type="text" name="textarea" id="textarea" placeholder="Digite aqui sua mensagem" required
+                                autocomplete="off">
+                        <button type="submit">Enviar</button>
+                </form>
+                <!--endereco-->
+                <div class="endereco">
+                        <h4>
+                                <p>Endereco</p>
+                                <p>Rua: Poeta Ludovico Ariosto, 46</p>
+                                <p>Bairro: Santa clara (cohab)</p>
+                                <p>Blumenau, SC</p>
+                        </h4>
+                </div>
+        </div>
+        <!--footer-->
+        <footer>
+                <h5>LéoTech &copy; 2023</h5>
+        </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
