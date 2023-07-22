@@ -282,7 +282,7 @@ form button {
 
         .leftright {
                 display: flex;
-                gap: 250px;
+                gap: 225px;
                 margin-top: -200px;
         }
 }
